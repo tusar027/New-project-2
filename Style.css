@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+}
+row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Section Css Start */
+#header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url(img/pic.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    padding-right: 100px;
+}
+.main-nav ul .active li{
+   display: inline-block;
+}
+.main-nav ul .active li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.main-nav ul .active  .menu  a{
+    border: 1px solid white;
+    
+}
+.main-nav ul  .active li  a:hover{
+    border: 1px solid red;
+}
+.logo{
+  width: 150px;
+  height: auto;
+  float: left;
+  padding: 28px 100px;
+}
+.content{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+
+}
+.button1{
+    border: 1px solid white;
+    padding: 10px 50px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: rebeccapurple;
+    font-family: "Roboto", sans-serif;
+}
+.button2{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: red;
+    font-family: "Roboto", sans-serif;
+}
+
+/* //Header Section Css End */
